@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Page Title</title>
+        <style>
+            body {
+                font-family: "helvetica neue";
+                color: #666;
+                padding: 0 20%;
+            }
+
+            li input {
+                display: none;
+            }
+
+            li.edit span {
+                display: none;
+            }
+
+            li.edit input {
+                display: initial;
+            }
+        </style>
     </head>
     <body>
-
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph.</p>
+        <!-- EVENT LISTENERS 1
+        <!--<h4>Addnumbers</h4>
+        <p>
+            <input id="num-one"> + <input id="num-two">
+        </p>
+        <p id="add-sum">
         
+        </p-->
+        
+        <!-- EVENT LISTENERS 2
+         <h4>Pictures</h4>
+        <ul>
+          <li><a data-img="simon-pic" id="simon" href="#">Simon Cowell</a></li>
+          <li><a data-img="bruce-pic" id="bruce" href="#">Bruce Willis</a></li>
+          <li><a data-img="ben-pic" id="ben" href="#">Ben Carson</a></li>
+        </ul>
+
+        <img id="simon-pic" style="display:none" src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Simon_Cowell_in_December_2011.jpg">
+        <img id="bruce-pic" style="display:none" src="http://upload.wikimedia.org/wikipedia/commons/0/03/Bruce_Willis_by_Gage_Skidmore.jpg">
+        <img id="ben-pic" style="display:none" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ben_Carson_by_Skidmore_with_lighting_correction.jpg/220px-Ben_Carson_by_Skidmore_with_lighting_correction.jpg" alt=""-->
+        
+        
+        <header>
+            <h1>Javascript Events</h1>
+                </header>
+                    <main>
+                        <ul id="checklist">
+                            <li>
+                                <span>Apples</span>
+                                <input value="Apples" />
+                            </li>
+                            <li><span>Oranges</span>
+                                <input value="Oranges" />
+                            </li>
+                            <li><span>Bananas</span>
+                                <input value="Bananas" />
+                            </li>
+                        </ul>
+                    </main>
+        <script src="scripts/main.js"></script>
     </body>
 </html>
