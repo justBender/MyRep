@@ -26,11 +26,11 @@ function add(){
     var two = parseFloat(numTwo.value) || 0;
     var sum = one+two;
     addSum.innerHTML = "your sum is: "+sum;
-};
+};*/
 
 //EVENT LISTENERS #2
 
-var simon = document.getElementById("simon");
+/*var simon = document.getElementById("simon");
 var bruce = document.getElementById("bruce");
 var ben = document.getElementById("ben");
 
@@ -43,6 +43,8 @@ var allImages = document.querySelectorAll("img");
 function picLink() {
 
     var picId = this.attributes["data-img"].value;
+    alert(this);
+    console.log(this);
     var pic = document.getElementById(picId);
     if (pic.style.display === "none") {
         for (var i = 0; i < allImages.length; i++) {
@@ -55,7 +57,7 @@ function picLink() {
     }    
 }*/
 
-var checklist = document.getElementById("checklist");
+/*var checklist = document.getElementById("checklist");
 
 var items = checklist.querySelectorAll("li");
 var inputs = checklist.querySelectorAll("input");
@@ -82,4 +84,4 @@ function itemKeypress(event) {
   if (event.which === 13) {
     updateItem.call(this);
   }
-}
+}*/
